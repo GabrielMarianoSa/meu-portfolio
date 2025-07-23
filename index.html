@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Mariano - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="secao-sobre">
+            <img src="imagens/foto-perfil.jpg" alt="Foto de perfil de Gabriel Mariano, um homem de pele clara e cabelo escuro, sorrindo." class="foto-perfil">
+            <div class="texto-sobre">
+                <h1>Gabriel Mariano da Silva</h1>
+                <h2>Desenvolvedor em Formação</h2>
+                <p>
+                    Olá, meu nome é Gabriel. Sou um entusiasta de tecnologia de 24 anos, atualmente no terceiro semestre de Análise e Desenvolvimento de Sistemas. Minha jornada na programação começou pelo front-end, onde me apaixonei pela criação de interfaces intuitivas e dinâmicas. Hoje, também exploro o back-end e tenho um interesse crescente pela área de Cybersecurity.
+                </p>
+                <p>
+                    Busco ativamente por uma oportunidade de emprego ou projetos freelancer para aplicar meu conhecimento, colaborar e me desenvolver profissionalmente.
+                </p>
+            </div>
+        </section>
+
+        <section id="projetos" class="secao-projetos">
+            <h2>Meus Projetos</h2>
+            <div class="grid-projetos">
+                
+                <div class="card-projeto">
+                    <a href="https://gabrielmarianosa.github.io/projeto-co2/index.html" target="_blank" class="link-titulo-projeto" id="projeto-carbono" aria-label="Abrir projeto Carbono Neutro em uma nova aba">
+                        <h3>Carbono Neutro - Plataforma de Sustentabilidade</h3>
+                    </a>
+                    <p>
+                        Uma solução web desenvolvida para empresas que buscam reduzir sua pegada de carbono. O site calcula a emissão de CO₂ e oferece um sistema de compensação através da compra de créditos de carbono.
+                    </p>
+                </div>
+
+                <div class="card-projeto">
+                     <a href="https://gabrielmarianosa.github.io/previsao-do-tempo-portfolio/" target="_blank" class="link-titulo-projeto" id="projeto-clima" aria-label="Abrir projeto Clima Agora em uma nova aba">
+                        <h3>Clima Agora - Previsão do Tempo</h3>
+                    </a>
+                    <p>
+                        Aplicação que consome uma API de clima para fornecer a previsão do tempo em tempo real para qualquer cidade do mundo, com uma interface limpa e responsiva.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato">
+        <h2>Vamos conversar?</h2>
+        <p>Estou disponível para novos projetos e oportunidades. Entre em contato!</p>
+        <div class="links-contato">
+            <a href="mailto:marianogabriel2001@gmail.com" aria-label="Enviar um e-mail para Gabriel Mariano">marianogabriel2001@gmail.com</a>
+            <a href="https://www.linkedin.com/in/gabriel-mariano-da-silva-dev/" target="_blank" aria-label="Abrir perfil de Gabriel Mariano no LinkedIn em uma nova aba">LinkedIn</a>
+            <a href="https://github.com/GabrielMarianoSa" target="_blank" aria-label="Abrir perfil de Gabriel Mariano no GitHub em uma nova aba">GitHub</a>
+        </div>
+    </footer>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
