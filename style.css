@@ -166,6 +166,14 @@ a#projeto-clima:hover h3 {
     color: #333333; /* Texto do título fica escuro no hover para contraste */
 }
 
+/* Hover do Projeto ERP */
+a#projeto-erp:hover {
+    background-color: #4A5568; /* Um cinza-azulado corporativo */
+}
+a#projeto-erp:hover h3 {
+    color: #ffffff; /* Texto do título fica branco no hover */
+}
+
 /* Rodapé e Contato */
 footer#contato {
     background-color: var(--cor-texto);
@@ -210,3 +218,4 @@ footer#contato h2 {
         margin: 0 0.8rem;
     }
 }
+
