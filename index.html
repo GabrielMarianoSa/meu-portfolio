@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio | Gabriel Mariano da Silva</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+
+  <body class="light">
+    <header>
+      <nav class="container nav-bar">
+        <a href="#" class="logo">Gabriel<strong>.Dev</strong></a>
+
+        <div class="menu" id="menu">
+          <a href="#sobre">Sobre</a>
+          <a href="#contato" class="btn-nav">Contato</a>
+        </div>
+
+        <div class="nav-actions">
+          <button id="toggle-theme" class="icon-btn" aria-label="Alternar tema">
+            <i data-lucide="moon"></i>
+          </button>
+          <button id="menu-toggle" class="icon-btn menu-btn" aria-label="Menu">
+            <i data-lucide="menu"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container hero" id="sobre">
+      <div class="hero-texto">
+        <h1>Gabriel Mariano da Silva<br /><span>Desenvolvedor Júnior</span></h1>
+        <p>
+          Desenvolvedor júnior com experiência em front-end e back-end. Foco em
+          resolver problemas reais com código limpo e interfaces intuitivas.
+          Especialista em ecossistema JavaScript (React, Node) e TOTVS (ADVPL).
+        </p>
+      </div>
+      <img src="/imagens/foto-de-perfil.jpg" class="foto" alt="Foto Gabriel" />
+    </section>
+
+    <section class="container" id="skills">
+      <h2>Habilidades</h2>
+
+      <div class="skills-box">
+        <div class="skills-col">
+          <h3>Frontend</h3>
+          <ul class="skills-list">
+            <li style="--color: #e34f26" data-desc="Estrutura semântica">
+              <img src="icons/html.svg" /> HTML
+            </li>
+            <li style="--color: #1572b6" data-desc="Estilização visual">
+              <img src="icons/css.svg" /> CSS
+            </li>
+            <li style="--color: #f7df1e" data-desc="Interatividade">
+              <img src="icons/javascript.svg" /> JavaScript
+            </li>
+            <li style="--color: #3178c6" data-desc="Tipagem estática">
+              <img src="icons/typescript.svg" /> TypeScript
+            </li>
+            <li style="--color: #61dafb" data-desc="Interfaces Reativas">
+              <img src="icons/react.svg" /> React
+            </li>
+            <li style="--color: #000000" data-desc="Framework de Produção">
+              <img src="icons/nextjs.svg" /> Next.js
+            </li>
+          </ul>
+        </div>
+
+        <div class="skills-col">
+          <h3>Backend</h3>
+          <ul class="skills-list">
+            <li style="--color: #339933" data-desc="JS no Servidor">
+              <img src="icons/nodejs.svg" /> Node.js
+            </li>
+            <li style="--color: #3776ab" data-desc="Back-end e Automação">
+              <img src="icons/python.svg" /> Python
+            </li>
+            <li style="--color: #336791" data-desc="Banco de Dados">
+              <img src="icons/postgresql.svg" /> PostgreSQL
+            </li>
+            <li style="--color: #f05032" data-desc="Versionamento">
+              <img src="icons/git.svg" /> Git / GitHub
+            </li>
+            <li style="--color: #7c3aed" data-desc="Linguagem TOTVS">
+              <img src="icons/code.svg" /> ADVPL / TLPP
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="languages-section">
+        <h3>Idiomas</h3>
+        <div class="lang-grid">
+          <div class="lang-card">
+            <i data-lucide="flag" style="color: #16a34a"></i>
+            <div><strong>Português</strong><span>Nativo</span></div>
+          </div>
+          <div class="lang-card">
+            <i data-lucide="languages" style="color: #ea580c"></i>
+            <div><strong>Espanhol</strong><span>Básico</span></div>
+          </div>
+          <div class="lang-card">
+            <i data-lucide="globe" style="color: #2563eb"></i>
+            <div><strong>Inglês</strong><span>Intermediário (B1)</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="timeline">
+      <h2>Linha do tempo profissional</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <span>2021</span><strong>Início na Área Comercial</strong>
+          </div>
+          <div class="timeline-body">
+            Comecei como jovem aprendiz e fui efetivado. Desenvolvi soft skills
+            cruciais.
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <span>2023</span><strong>Transição de Carreira</strong>
+          </div>
+          <div class="timeline-body">
+            Decidi focar 100% nos estudos de tecnologia e programação.
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <span>2024</span><strong>Estudos & Projetos</strong>
+          </div>
+          <div class="timeline-body">
+            Período de aprofundamento técnico e cursos intensivos.
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <span>2025</span><strong>IOS + Universo TOTVS</strong>
+          </div>
+          <div class="timeline-body">
+            Formação no IOS e representante no evento Universo TOTVS.
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <span>Out/2025</span><strong>Consultoria TOTVS</strong>
+          </div>
+          <div class="timeline-body">
+            Início como Desenvolvedor PJ (ADVPL, TLPP, SQL).
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <span>2026</span><strong>Full Stack & Atualidade</strong>
+          </div>
+          <div class="timeline-body">
+            Atualmente trabalho na consultoria e em agência de marketing.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="youtube">
+      <h2>Projeto pessoal</h2>
+      <div class="youtube-wrapper">
+        <div class="youtube-big-card">
+          <div class="yt-image-area">
+            <img src="/imagens/youtube.png" alt="Canal Youtube" />
+          </div>
+          <div class="yt-info-area">
+            <h3>Canal Monetizado</h3>
+            <p>
+              Esse canal começou totalmente por curiosidade e hoje gera renda
+              extra, provando minha disciplina e constância.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="projetos">
+      <h2>Projetos</h2>
+      <div class="projetos-grid">
+        <div class="card project-card" data-color="carbono">
+          <h3>Carbono Neutro</h3>
+          <p>Plataforma para cálculo de CO₂.</p>
+          <div class="links">
+            <a
+              href="https://gabrielmarianosa.github.io/projeto-co2/index.html"
+              target="_blank"
+              >Acessar</a
+            >
+          </div>
+        </div>
+        <div class="card project-card" data-color="clima">
+          <h3>Clima Agora</h3>
+          <p>Previsão do tempo com API.</p>
+          <div class="links">
+            <a href="https://previsao-do-tempo-novo.vercel.app/" target="_blank"
+              >Acessar</a
+            >
+          </div>
+        </div>
+        <div class="card project-card" data-color="erp">
+          <h3>Mini ERP</h3>
+          <p>Sistema de controle.</p>
+          <div class="links">
+            <a
+              href="https://gabrielmarianosa.github.io/ERP-portf-lio/"
+              target="_blank"
+              >Acessar</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banana-section" id="mobile-app">
+      <div class="container">
+        <h2>App mobile — Banana Bank</h2>
+        <p style="color: #6a5a00; margin-bottom: 2rem">
+          App acadêmico simulando funcionalidades bancárias.
+        </p>
+
+        <div class="app-grid-layout">
+          <div class="app-video-container">
+            <video
+              src="/mobile/banana-bank-app.mp4"
+              controls
+              playsinline
+              poster="/mobile/thumb.jpg"
+            ></video>
+          </div>
+
+          <div class="app-screenshots">
+            <img src="/mobile/intro1.jpeg" alt="Tela 1" />
+            <img src="/mobile/intro2.jpeg" alt="Tela 2" />
+            <img src="/mobile/intro3.jpeg" alt="Tela 3" />
+            <img src="/mobile/intro4.jpeg" alt="Tela 4" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="totvs-section" id="galeria">
+      <div class="container">
+        <h2>Universo TOTVS 2025</h2>
+        <p class="totvs-desc">
+          Representei o Instituto da Oportunidade Social no evento.
+        </p>
+        <div class="galeria-totvs">
+          <div class="totvs-item"><img src="/imagens/evento1.jpg" /></div>
+          <div class="totvs-item"><img src="/imagens/evento2.jpg" /></div>
+          <div class="totvs-item"><img src="/imagens/evento3.jpg" /></div>
+          <div class="totvs-item"><img src="/imagens/evento4.jpg" /></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="senac-section" id="senac">
+      <div class="container">
+        <h2>Formação Senac</h2>
+        <p class="senac-desc">
+          Formação técnica e prática em desenvolvimento de sistemas.
+        </p>
+
+        <div class="galeria-senac">
+          <div class="senac-item">
+            <img src="/imagens/senac1.jpg" alt="Foto Senac 1" />
+          </div>
+          <div class="senac-item">
+            <img src="/imagens/senac2.jpg" alt="Foto Senac 2" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="certificados">
+      <h2>Certificados</h2>
+      <p class="muted">Clique nas imagens para baixar o PDF do certificado.</p>
+
+      <div class="certificados-grid">
+        <a
+          href="/certificados/certificado-fullStack.pdf"
+          class="cert-item"
+          data-cert="fullstack"
+          download
+        >
+          <img
+            src="/certificados/certificadofullstackIMG.jpg"
+            alt="Certificado 1"
+          />
+          <div class="cert-overlay">
+            <i data-lucide="download"></i> Baixar PDF
+          </div>
+        </a>
+
+        <a
+          href="/certificados/CERTIFICADO - SENAC - FORMAÇÃO FRONT-END.pdf"
+          class="cert-item"
+          data-cert="senac"
+          download
+        >
+          <img
+            src="/certificados/certificadoSenacFrontEndIMG.jpg"
+            alt="Certificado 2"
+          />
+          <div class="cert-overlay">
+            <i data-lucide="download"></i> Baixar PDF
+          </div>
+        </a>
+
+        <a
+          href="/certificados/CERTIFICADO IOS.pdf"
+          class="cert-item"
+          data-cert="ios"
+          download
+        >
+          <img src="/certificados/CertificadoIOS.jpg" alt="Certificado 3" />
+          <div class="cert-overlay">
+            <i data-lucide="download"></i> Baixar PDF
+          </div>
+        </a>
+
+        <a
+          href="/certificados/CERTIFICADO - ONE ORACLE - GABRIEL.pdf"
+          class="cert-item"
+          data-cert="oracle"
+          download
+        >
+          <img
+            src="/certificados/certificadoOneAlura.jpg"
+            alt="Certificado 4"
+          />
+          <div class="cert-overlay">
+            <i data-lucide="download"></i> Baixar PDF
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="container" id="curriculos">
+      <h2>Currículos:</h2>
+      <p>Deixo disponível para download minha apresentação currículo.</p>
+
+      <div class="curriculos-botoes">
+        <a
+          href="curriculos/Gabriel-Mariano-CV-PT.pdf"
+          class="btn cv-btn"
+          download
+        >
+          <i data-lucide="file-text"></i> Baixar CV (PT-BR)
+        </a>
+        <a
+          href="curriculos/Gabriel-Mariano-CV-EN.pdf"
+          class="btn cv-btn"
+          download
+        >
+          <i data-lucide="file-text"></i> Resume (EN)
+        </a>
+      </div>
+    </section>
+
+    <section class="container" id="contato">
+      <h2>Contato</h2>
+      <p>Quer falar comigo? Envie uma mensagem.</p>
+      <form
+        id="contact-form"
+        action="https://formsubmit.co/marianogabriel2001@gmail.com"
+        method="POST"
+      >
+        <input type="hidden" name="_subject" value="Contato via portfolio" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="thanks.html" />
+        <div class="form-row">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Seu nome"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Seu email"
+            required
+          />
+        </div>
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Sua mensagem"
+          required
+        ></textarea>
+        <div class="form-actions">
+          <button type="submit" class="btn">Enviar mensagem</button>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <p>Copyright © 2026</p>
+      <p><strong>Gabriel Mariano da Silva</strong></p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>

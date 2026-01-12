@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Obrigado! | Gabriel Mariano</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+      }
+      .thanks-card {
+        background: var(--card);
+        padding: 3rem;
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        margin: 1rem;
+        border: 1px solid var(--border);
+      }
+      h1 {
+        color: var(--primary);
+        margin-bottom: 1rem;
+      }
+      .icon-success {
+        color: #16a34a;
+        width: 80px;
+        height: 80px;
+        margin-bottom: 1rem;
+      }
+    </style>
+  </head>
+  <body class="light">
+    <div class="thanks-card">
+      <i data-lucide="check-circle" class="icon-success"></i>
+      <h1>Mensagem Enviada!</h1>
+      <p style="color: var(--muted); margin-bottom: 2rem">
+        Obrigado pelo contato. Recebi seu e-mail e retornarei o mais breve
+        possível.
+      </p>
+      <a href="index.html" class="btn">Voltar ao Portfólio</a>
+    </div>
+
+    <script>
+      lucide.createIcons();
+      // Detecta tema salvo para manter consistência
+      const savedTheme = localStorage.getItem("theme");
+      if (savedTheme) document.body.className = savedTheme;
+    </script>
+  </body>
+</html>
